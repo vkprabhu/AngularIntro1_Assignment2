@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+    <head>
+        <meta charset="utf-8" >
+        <meta name="viewport" content="width=device-width, initial-scale=1" >
+        <title>Home page</title>
+        <script src="angular.js"></script>
+    </head>
+    <body>
+        <script>
+        var myModule = angular.module("myapp", []);
+        myModule.controller("mycontroller", function($scope) {
+            $scope.name = "";
+            $scope.lastname = "";
+        });
+        </script>
+    </body>
+</html>
